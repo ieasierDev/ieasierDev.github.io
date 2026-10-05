@@ -1,0 +1,6 @@
+name="personal-portfolio-donate-api"
+main="src/index.js"
+compatibility_date="2026-10-05"
+[vars]
+ALLOWED_ORIGIN="http://localhost:8080"
+DONATION_MODE="demo"

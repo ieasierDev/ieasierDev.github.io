@@ -1,0 +1,57 @@
+{
+  "name": "João Vitor",
+  "initials": "JV",
+  "role": "Administrativo, Logística e Qualidade",
+  "location": "São Paulo, Brasil",
+  "description": "Profissional com experiência em rotinas administrativas, controle de estoque, apoio à produção e processos de qualidade.",
+  "about": "Minha trajetória reúne experiência em operações, logística, rotinas administrativas e qualidade. Também tenho formação técnica em Administração e Logística e conhecimentos em desenvolvimento web.",
+  "specialty": "Administração / Logística / Qualidade",
+  "focus": "Operações / Estoque / Desenvolvimento web",
+  "experience": [
+    {
+      "title": "Registro de Qualidade",
+      "period": "Jul 2025 – Abr 2026",
+      "company": "Novo Brasil Comércio e Manutenção de Extintores",
+      "description": "Acompanhamento da produção e validação de mapas de calibração e certificados de materiais de produção."
+    },
+    {
+      "title": "Auxiliar de Montagem",
+      "period": "Mai 2019 – Nov 2023",
+      "company": "Novo Brasil Comércio e Manutenção de Extintores",
+      "description": "Atuação em compras, controle de estoque, relatórios de serviços, conferência e liberação de materiais para viagens e produção."
+    }
+  ],
+  "education": [
+    {
+      "title": "Técnico em Assistência Administrativa",
+      "period": "2021",
+      "institution": "Eurodata"
+    },
+    {
+      "title": "Técnico em Logística",
+      "period": "2018",
+      "institution": "Escola Técnica Estadual de São Paulo (ETEC)"
+    },
+    {
+      "title": "Ensino Médio",
+      "period": "2018",
+      "institution": "Escola Estadual Prof. Joaquim Braga de Paula"
+    },
+    {
+      "title": "Inglês básico",
+      "period": "2021",
+      "institution": "Saliens de Idiomas"
+    },
+    {
+      "title": "Cursos complementares",
+      "period": "2017",
+      "institution": "Rotinas Administrativas (Legião Mirim), Escrituração Fiscal (Sescon-SP) e Liderança (Rotary Club de São Paulo - Vila Alpina)"
+    }
+  ],
+  "skills": [
+    "Microsoft Office",
+    "Sistemas TMS, WMS, MRP e ERP",
+    "Servidores e impressoras",
+    "Desenvolvimento web"
+  ]
+}

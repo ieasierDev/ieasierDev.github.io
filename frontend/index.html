@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="description" content="Perfil profissional, currículo e formas de apoiar o trabalho.">
+  <title>João Vitor — Portfólio</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a class="brand" href="#home">JOÃO<span>.</span>VITOR</a>
+    <button id="menu" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav">
+      <a href="#about">Sobre</a>
+      <a href="#resume">Currículo</a>
+      <a href="#gallery">Fotos</a>
+      <a href="#video">Vídeo</a>
+      <a href="#social">Redes</a>
+    </nav>
+  </header>
+  <main>
+    <section id="home" class="hero">
+      <div>
+        <small>PORTFÓLIO PESSOAL</small>
+        <h1>Experiência em <em>administração, logística e qualidade.</em></h1>
+        <p id="description"></p>
+        <a class="btn" href="#resume">Ver currículo <span aria-hidden="true">↓</span></a>
+      </div>
+      <aside>
+        <div id="avatar">JV</div>
+        <b id="role"></b>
+        <span id="location"></span>
+      </aside>
+    </section>
+    <section id="about">
+      <small>01 / SOBRE</small>
+      <h2>Quem sou</h2>
+      <div class="two">
+        <p id="aboutText"></p>
+        <div class="stats">
+          <p><span>Área</span><b id="specialty"></b></p>
+          <p><span>Competências</span><b id="focus"></b></p>
+        </div>
+      </div>
+    </section>
+    <section id="resume">
+      <small>02 / CURRÍCULO</small>
+      <h2>Experiência profissional</h2>
+      <div id="resumeContent" class="grid"></div>
+      <h3>Formação e cursos</h3>
+      <div id="educationContent" class="grid"></div>
+      <h3>Competências</h3>
+      <div id="skillsContent" class="tags"></div>
+    </section>
+    <section id="gallery">
+      <small>03 / GALERIA</small>
+      <h2>Fotos & momentos</h2>
+      <div id="galleryGrid" class="gallery"></div>
+    </section>
+    <section id="video">
+      <small>04 / APRESENTAÇÃO</small>
+      <h2>Conheça meu trabalho</h2>
+      <div class="video">
+        <iframe src="https://www.youtube.com/embed/dQw4w9WgXcQ" title="Vídeo de apresentação" allowfullscreen></iframe>
+      </div>
+    </section>
+    <section id="social">
+      <small>05 / REDES</small>
+      <h2>Encontre-me online</h2>
+      <div id="socialGrid" class="grid social"></div>
+    </section>
+  </main>
+  <button id="donateOpen" class="donate-float" type="button">Apoiar <span aria-hidden="true">↗</span></button>
+  <dialog id="donateDialog" aria-labelledby="donateTitle">
+    <div class="dialog-heading">
+      <div>
+        <small>APOIO</small>
+        <h2 id="donateTitle">Apoie meu trabalho</h2>
+      </div>
+      <button id="donateClose" class="dialog-close" type="button" aria-label="Fechar">×</button>
+    </div>
+    <p>Se meu trabalho foi útil para você, é possível contribuir.</p>
+    <div class="donate">
+        <div class="amounts">
+          <button type="button" data-amount="5">R$ 5</button>
+          <button type="button" data-amount="10" class="selected">R$ 10</button>
+          <button type="button" data-amount="25">R$ 25</button>
+          <button type="button" data-amount="50">R$ 50</button>
+        </div>
+        <label class="visually-hidden" for="custom">Outro valor em reais</label>
+        <input id="custom" type="number" min="1" max="10000" placeholder="Outro valor">
+        <button id="donateBtn" class="btn" type="button">Continuar</button>
+        <p id="status" aria-live="polite"></p>
+    </div>
+  </dialog>
+  <footer>© <span id="year"></span> João Vitor · GitHub Pages</footer>
+  <script src="js/app.js"></script>
+</body>
+</html>
